@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+- sample-data.xml
+-
+- Copyright (c) 2019 Rafael Corchuelo.
+-
+- In keeping with the traditional purpose of furthering education and research, it is
+- the policy of the copyright owner to permit non-commercial use and redistribution of
+- this software. It has been tested carefully, but it is not guaranteed for any particular
+- purposes.  The copyright owner does not offer any warranties or representations, nor do
+- they accept any liabilities with respect to them.
+-->
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<import resource="conversion-service.xml" />
+	
+	 <!-- Challenge -->
+
+	<bean class="acme.entities.challenges.Challenge" id="challenge1">
+		<property value="Engineers Wanted!" name="title"/>
+		<property value="2021/01/05 11:00" name="deadline"/>
+		<property value="MASA needs new engineers. Apply here" name="description"/>
+		<property value="Resolve expert challenge" name="expertGoal"/>
+		<property name="expertReward">
+			<bean class="acme.framework.datatypes.Money">
+				<property value="400" name="amount"/>
+				<property value="€" name="currency"/>
+			</bean>
+		</property>
+		<property value="Resolve average challenge" name="averageGoal"/>
+		<property name="averageReward">
+			<bean class="acme.framework.datatypes.Money">
+				<property value="300" name="amount"/>
+				<property value="€" name="currency"/>
+			</bean>
+		</property>
+		<property value="Resolve rookie challenge" name="rookieGoal"/>
+		<property name="rookieReward">
+			<bean class="acme.framework.datatypes.Money">
+				<property value="200" name="amount"/>
+				<property value="€" name="currency"/>
+			</bean>
+		</property>
+	</bean>
+	
+	<bean class="acme.entities.challenges.Challenge" id="challenge2">
+		<property value="Maths Wanted!" name="title"/>
+		<property value="2021/02/05 11:25" name="deadline"/>
+		<property value="MASA needs new maths. Apply here" name="description"/>
+		<property value="Resolve expert math problem" name="expertGoal"/>
+		<property name="expertReward">
+			<bean class="acme.framework.datatypes.Money">
+				<property value="600" name="amount"/>
+				<property value="€" name="currency"/>
+			</bean>
+		</property>
+		<property value="Resolve average math problem" name="averageGoal"/>
+		<property name="averageReward">
+			<bean class="acme.framework.datatypes.Money">
+				<property value="500" name="amount"/>
+				<property value="€" name="currency"/>
+			</bean>
+		</property>
+		<property value="Resolve rookie math problem" name="rookieGoal"/>
+		<property name="rookieReward">
+			<bean class="acme.framework.datatypes.Money">
+				<property value="300" name="amount"/>
+				<property value="€" name="currency"/>
+			</bean>
+		</property>
+	</bean>
+	
+	<bean class="acme.entities.challenges.Challenge" id="challenge3">
+		<property value="Developers Wanted!" name="title"/>
+		<property value="2021/04/03 12:00" name="deadline"/>
+		<property value="MASA needs new developers. Apply here" name="description"/>
+		<property value="Create an app" name="expertGoal"/>
+		<property name="expertReward">
+			<bean class="acme.framework.datatypes.Money">
+				<property value="6000" name="amount"/>
+				<property value="€" name="currency"/>
+			</bean>
+		</property>
+		<property value="Create an api" name="averageGoal"/>
+		<property name="averageReward">
+			<bean class="acme.framework.datatypes.Money">
+				<property value="3500" name="amount"/>
+				<property value="€" name="currency"/>
+			</bean>
+		</property>
+		<property value="Create a web" name="rookieGoal"/>
+		<property name="rookieReward">
+			<bean class="acme.framework.datatypes.Money">
+				<property value="1500" name="amount"/>
+				<property value="€" name="currency"/>
+			</bean>
+		</property>
+	</bean>
+
+</beans>
