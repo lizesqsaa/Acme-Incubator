@@ -29,7 +29,17 @@
 
     drop table if exists `consumer`;
 
+    drop table if exists `inquire`;
+
+    drop table if exists `notice`;
+
+    drop table if exists `overture`;
+
     drop table if exists `provider`;
+
+    drop table if exists `technology_record`;
+
+    drop table if exists `tool`;
 
     drop table if exists `user_account`;
 

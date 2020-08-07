@@ -35,15 +35,41 @@ master.menu.anonymous.favourite-link.lizseth = Enlace favorito de Lizseth
 master.menu.anonymous.favourite-link.jaime = Enlace favorito de Jaime
 
 
+master.menu.anonymous.technologyRecord = Registro de tecnología
+master.menu.anonymous.technologyRecord.list = Registros
+
+master.menu.anonymous.tool = Herramientas
+master.menu.anonymous.tool.list = Lista de herramientas
+
+master.menu.anonymous.notice.list = Lista de avisos activos
+master.menu.anonymous.notice = Avisos
+
+# master.menu.authenticated #######################################################
+
+master.menu.authenticated.overture = Propuestas
+master.menu.authenticated.overture.list = Lista de propuestas
+
+master.menu.authenticated.inquire = Preguntas
+master.menu.authenticated.inquire.list = Lista de preguntas
+
+master.menu.authenticated.challenge = Retos
+master.menu.authenticated.challenge.list= Lista de Retos
+
+master.menu.authenticated.notice = Avisos
+master.menu.authenticated.notice.list = Lista de avisos
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrador
 master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.shutdown = Parar el sistema
 
+master.menu.administrator.notice = Avisos
+master.menu.administrator.notice.list = Lista de avisos
+
 # master.menu.authenticated ###################################################
 master.menu.authenticated = Authenticado
-master.menu.authenticated.challenge = Lista de Retos
+
 
 
 # master.menu.provider ########################################################
