@@ -7,12 +7,12 @@
 
 <tiles-definitions>
 
-	<definition name="administrator/investor/list" extends="master">
-		<put-attribute name="body" type="template" value="../administrator/investor/list.jsp" />
+	<definition name="administrator/tool/list" extends="master">
+		<put-attribute name="body" type="template" value="../administrator/tool/list.jsp" />
 	</definition>
 	
-	<definition name="administrator/investor/form" extends="master">
-		<put-attribute name="body" type="template" value="../administrator/investor/form.jsp" />
+	<definition name="administrator/tool/form" extends="master">
+		<put-attribute name="body" type="template" value="../administrator/tool/form.jsp" />
 	</definition>
 	
 

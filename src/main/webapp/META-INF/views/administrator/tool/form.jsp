@@ -15,20 +15,20 @@
 	
 	
 	<acme:form-submit test="${command == 'show'}"
-	code="administrator.investor.form.button.update"
-	action="/administrator/investor/update"/>
+	code="administrator.tool.form.button.update"
+	action="/administrator/tool/update"/>
 	<acme:form-submit test="${command == 'show'}"
-	code="administrator.investor.form.button.delete"
-	action="/administrator/investor/delete"/>
+	code="administrator.tool.form.button.delete"
+	action="/administrator/tool/delete"/>
 	<acme:form-submit test="${command == 'create'}"
-	code="administrator.investor.form.button.create"
-	action="/administrator/investor/create"/>
+	code="administrator.tool.form.button.create"
+	action="/administrator/tool/create"/>
 	<acme:form-submit test="${command == 'update'}"
-	code="administrator.investor.form.button.update"
-	action="/administrator/investor/update"/>
+	code="administrator.tool.form.button.update"
+	action="/administrator/tool/update"/>
 	<acme:form-submit test="${command == 'delete'}"
-	code="administrator.investor.form.button.delete"
-	action="/administrator/investor/delete"/>
+	code="administrator.tool.form.button.delete"
+	action="/administrator/tool/delete"/>
 	<acme:form-return
-	code="authenticated.investor.form.button.return"/>
+	code="authenticated.tool.form.button.return"/>
 </acme:form>

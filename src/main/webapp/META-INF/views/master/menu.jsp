@@ -55,6 +55,13 @@
 		<acme:menu-suboption code="master.menu.administrator.notice.list" action="/administrator/notice/list"/>
 		</acme:menu-option>
 		
+		<acme:menu-option code="master.menu.administrator.tool" access="hasRole('Administrator')">
+		<acme:menu-suboption code="master.menu.administrator.tool.list" action="/administrator/tool/list"/>
+		<acme:menu-suboption code="master.menu.administrator.tool.create" action="/administrator/tool/create"/>
+		</acme:menu-option>
+		
+		
+		
 		
 		
 		<acme:menu-option code="master.menu.anonymous.technologyRecord" access="isAuthenticated()">
