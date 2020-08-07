@@ -6,13 +6,13 @@ administrator.tool.form.label.website = Website:
 administrator.tool.form.label.email = Email:
 administrator.tool.form.label.isOpenSource = Open source:
 administrator.tool.form.label.starsNumber = Stars:
-administrator.investor.form.button.return = Return
+administrator.tool.form.button.return = Return
 
 administrator.tool.list.label.title = Title
 administrator.tool.list.label.sector = Sector
 administrator.tool.list.label.starsNumber = Stars
 
 
-administrator.investor.form.button.update = Update
-administrator.investor.form.button.delete = Delete
-administrator.investor.form.button.create = Create
+administrator.tool.form.button.update = Update
+administrator.tool.form.button.delete = Delete
+administrator.tool.form.button.create = Create

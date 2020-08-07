@@ -32,7 +32,7 @@ public class AdministratorToolListService implements AbstractListService<Adminis
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "title", "sector", "starNumber");
+		request.unbind(entity, model, "title", "sector", "starsNumber");
 	}
 
 	@Override

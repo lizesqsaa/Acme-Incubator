@@ -30,5 +30,5 @@
 	code="administrator.tool.form.button.delete"
 	action="/administrator/tool/delete"/>
 	<acme:form-return
-	code="authenticated.tool.form.button.return"/>
+	code="administrator.tool.form.button.return"/>
 </acme:form>
