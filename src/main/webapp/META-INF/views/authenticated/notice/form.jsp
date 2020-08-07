@@ -22,6 +22,8 @@
 	<acme:form-url code="authenticated.notice.form.label.relatedNotices" path="relatedNotices"/>
 	<acme:form-textarea code="authenticated.notice.form.label.body" path="body"/>
 	
+	<acme:form-checkbox code="authenticated.notice.form.label.accept" path="accept"/>
+	
 	<acme:form-submit test="${command == 'create'}" code="authenticated.notice.form.button.create" 
 						action="/authenticated/notice/create"/>
 	
