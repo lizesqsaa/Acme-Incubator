@@ -21,5 +21,6 @@ anonymous.notices.form.label.picture	= Imagen
 
 anonymous.notices.form.button.return = Volver
 
-anonymous.notice.form.button.create = Create
-anonymous.notices.form.label.accept = Are you sure you want to create this notice?
+anonymous.notice.form.button.create = Crear
+anonymous.notices.form.label.accept =¿Está seguro de que quiere crear este aviso?
+

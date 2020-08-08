@@ -22,8 +22,9 @@
 	<acme:form-url code="administrator.notices.form.label.relatedNotices" path="relatedNotices"/>
 	<acme:form-textarea code="administrator.notices.form.label.body" path="body"/>
 	
-	
-	<acme:form-checkbox code="administrator.notices.form.label.accept" path="accept"/>
+	<jstl:if test="${command=='create' }">
+	<acme:form-checkbox  code="administrator.notices.form.label.accept" path="accept"/>
+	</jstl:if>
 	
 	<acme:form-submit test="${command == 'create'}" code="administrator.notice.form.button.create" 
 						action="/administrator/notice/create"/>
