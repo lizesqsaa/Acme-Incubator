@@ -69,6 +69,11 @@
 			<acme:menu-suboption code="master.menu.authenticated.overture.list" action="/authenticated/overture/list"/>
 		</acme:menu-option>
 		
+		<acme:menu-option code="master.menu.administrator.overture" access="hasRole('Administrator')">
+			<acme:menu-suboption code="master.menu.administrator.overture.list" action="/administrator/overture/list"/>
+			<acme:menu-suboption code="master.menu.administrator.overture.create" action="/administrator/overture/create"/>
+		</acme:menu-option>
+		
 		<acme:menu-option code="master.menu.authenticated.inquire" access="isAuthenticated()">
 			<acme:menu-suboption code="master.menu.authenticated.inquire.list" action="/authenticated/inquire/list"/>
 		</acme:menu-option>

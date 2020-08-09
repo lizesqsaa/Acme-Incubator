@@ -64,6 +64,10 @@ master.menu.administrator = Administrador
 master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.shutdown = Parar el sistema
 
+master.menu.administrator.overture = Propuestas
+master.menu.administrator.overture.list = Lista de propuestas
+master.menu.administrator.overture.create = Crear propuesta
+
 master.menu.administrator.notice = Avisos
 master.menu.administrator.notice.list = Lista de avisos
 
