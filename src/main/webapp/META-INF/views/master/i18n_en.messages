@@ -64,6 +64,10 @@ master.menu.administrator = Administrator
 master.menu.administrator.user-accounts = User accounts
 master.menu.administrator.shutdown = Shut down
 
+master.menu.administrator.technologyRecord = Technology Record
+master.menu.administrator.technologyRecord.list = Records
+master.menu.administrator.technologyRecord.create = Create record
+
 master.menu.administrator.notice = Notices
 master.menu.administrator.notice.list = Notices list
 
