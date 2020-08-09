@@ -13,7 +13,6 @@ public interface AdministratorNoticesRepository extends AbstractRepository {
 	@Query("select n from Notice n where n.id = ?1")
 	Notice findOneById(int id);
 
-	//@Query("select n from Notice n where n.deadline between ?1 and ?2")
 	@Query("select n from Notice n")
 	Collection<Notice> findManyAll();
 

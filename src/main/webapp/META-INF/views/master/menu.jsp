@@ -57,8 +57,8 @@
 		
 		
 		
-		<acme:menu-option code="master.menu.anonymous.technologyRecord" access="isAuthenticated()">
-			<acme:menu-suboption code="master.menu.anonymous.technologyRecord.list" action="/anonymous/technology-record/list"/>
+		<acme:menu-option code="master.menu.authenticated.technologyRecord" access="isAuthenticated()">
+			<acme:menu-suboption code="master.menu.authenticated.technologyRecord.list" action="/authenticated/technology-record/list"/>
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.anonymous.tool" access="isAuthenticated()">
@@ -67,6 +67,11 @@
 
 		<acme:menu-option code="master.menu.authenticated.overture" access="isAuthenticated()">
 			<acme:menu-suboption code="master.menu.authenticated.overture.list" action="/authenticated/overture/list"/>
+		</acme:menu-option>
+		
+		<acme:menu-option code="master.menu.administrator.overture" access="hasRole('Administrator')">
+			<acme:menu-suboption code="master.menu.administrator.overture.list" action="/administrator/overture/list"/>
+			<acme:menu-suboption code="master.menu.administrator.overture.create" action="/administrator/overture/create"/>
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.authenticated.inquire" access="isAuthenticated()">
@@ -84,9 +89,11 @@
 			<acme:menu-suboption code="master.menu.administrator.shutdown" action="/master/shutdown"/>
 		</acme:menu-option>
 		
+
 		<acme:menu-option code="master.menu.authenticated.challenge" access="hasRole('Administrator')">
 			<acme:menu-suboption code="master.menu.administrator.challenge.list" action="/administrator/challenge/list"/>
 			<acme:menu-suboption code="master.menu.administrator.challenge.create" action="/administrator/challenge/create"/>
+
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.provider" access="hasRole('Provider')">
