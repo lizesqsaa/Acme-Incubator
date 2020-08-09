@@ -30,6 +30,8 @@ public class AdministratorTechnologyRecordUpdateService implements AbstractUpdat
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
+
+		request.bind(entity, errors);
 	}
 
 	@Override

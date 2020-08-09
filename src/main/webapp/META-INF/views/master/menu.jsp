@@ -57,8 +57,8 @@
 		
 		
 		
-		<acme:menu-option code="master.menu.anonymous.technologyRecord" access="isAuthenticated()">
-			<acme:menu-suboption code="master.menu.anonymous.technologyRecord.list" action="/anonymous/technology-record/list"/>
+		<acme:menu-option code="master.menu.authenticated.technologyRecord" access="isAuthenticated()">
+			<acme:menu-suboption code="master.menu.authenticated.technologyRecord.list" action="/authenticated/technology-record/list"/>
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.anonymous.tool" access="isAuthenticated()">

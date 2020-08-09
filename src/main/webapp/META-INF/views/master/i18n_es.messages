@@ -49,6 +49,9 @@ master.menu.anonymous.notice = Avisos
 master.menu.authenticated.overture = Propuestas
 master.menu.authenticated.overture.list = Lista de propuestas
 
+master.menu.authenticated.technologyRecord = Registro de tecnología
+master.menu.authenticated.technologyRecord.list = Registros
+
 master.menu.authenticated.inquire = Preguntas
 master.menu.authenticated.inquire.list = Lista de preguntas
 

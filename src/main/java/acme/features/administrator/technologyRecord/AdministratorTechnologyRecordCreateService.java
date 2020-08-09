@@ -30,6 +30,8 @@ public class AdministratorTechnologyRecordCreateService implements AbstractCreat
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
+
+		request.bind(entity, errors);
 	}
 
 	@Override

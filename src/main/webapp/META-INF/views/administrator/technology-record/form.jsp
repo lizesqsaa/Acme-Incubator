@@ -17,6 +17,8 @@
 
 <acme:form>
 	<acme:form-textbox code="administrator.techonologyRecord.form.label.title" path="title"/>
+	<jstl:if test="${command != 'create'}">
+	</jstl:if>
 	<acme:form-textbox code="administrator.techonologyRecord.form.label.activitySector" path="activitySector"/>
 	<acme:form-textbox code="administrator.techonologyRecord.form.label.inventor" path="inventor"/>
 	<acme:form-textarea code="administrator.techonologyRecord.form.label.description" path="description"/>

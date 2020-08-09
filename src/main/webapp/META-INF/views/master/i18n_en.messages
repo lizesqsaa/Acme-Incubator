@@ -49,6 +49,9 @@ master.menu.anonymous.notice = Notices
 master.menu.authenticated.overture = Overtures
 master.menu.authenticated.overture.list = Overtures List
 
+master.menu.authenticated.technologyRecord = Technology Record
+master.menu.authenticated.technologyRecord.list = Records
+
 master.menu.authenticated.inquire = Inquiries
 master.menu.authenticated.inquire.list = Inquires list
 
