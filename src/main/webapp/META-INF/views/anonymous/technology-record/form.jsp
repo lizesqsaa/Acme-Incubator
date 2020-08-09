@@ -19,9 +19,9 @@
 	<acme:form-textbox code="anonymous.techonologyRecord.form.label.title" path="title"/>
 	<acme:form-textbox code="anonymous.techonologyRecord.form.label.activitySector" path="activitySector"/>
 	<acme:form-textbox code="anonymous.techonologyRecord.form.label.inventor" path="inventor"/>
-	<acme:form-moment code="anonymous.techonologyRecord.form.label.description" path="description"/>
-	<acme:form-moment code="anonymous.techonologyRecord.form.label.web" path="web"/>
-	<acme:form-textarea code="anonymous.techonologyRecord.form.label.contactEmail" path="contactEmail"/>
+	<acme:form-textarea code="anonymous.techonologyRecord.form.label.description" path="description"/>
+	<acme:form-textbox code="anonymous.techonologyRecord.form.label.web" path="web"/>
+	<acme:form-textbox code="anonymous.techonologyRecord.form.label.contactEmail" path="contactEmail"/>
 	<acme:form-checkbox code="anonymous.techonologyRecord.form.label.source" path="source"/>
 	<acme:form-textbox code="anonymous.techonologyRecord.form.label.stars" path="stars"/>
 
