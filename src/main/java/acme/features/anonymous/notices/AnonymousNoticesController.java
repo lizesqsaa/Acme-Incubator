@@ -22,11 +22,15 @@ public class AnonymousNoticesController extends AbstractController<Anonymous, No
 	@Autowired
 	private AnonymousNoticesShowService		showService;
 
+	@Autowired
+	private AnonymousNoticesCreateService	createService;
+
 
 	@PostConstruct
 	private void initialise() {
 		super.addBasicCommand(BasicCommand.LIST, this.listService);
 		super.addBasicCommand(BasicCommand.SHOW, this.showService);
+		super.addBasicCommand(BasicCommand.CREATE, this.createService);
 	}
 
 }
