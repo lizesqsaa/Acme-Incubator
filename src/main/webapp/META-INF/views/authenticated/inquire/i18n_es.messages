@@ -8,20 +8,20 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-authenticated.inquires.list.label.title	= Title
-authenticated.inquires.list.label.minMoney = Minimun money interval
-authenticated.inquires.list.label.maxMoney = Maximun money interval
-authenticated.inquires.list.label.deadline = Deadline
+authenticated.inquires.list.label.title	= Título
+authenticated.inquires.list.label.minMoney = Dinero mínimo en el intervalo
+authenticated.inquires.list.label.maxMoney = Dinero máximo en el intervalo
+authenticated.inquires.list.label.deadline = Fecha límite
 
 
-authenticated.inquires.form.label.title	= Title
-authenticated.inquires.form.label.creationMoment = Creation moment
-authenticated.inquires.form.label.deadline = Deadline
+authenticated.inquires.form.label.title	= Titulo
+authenticated.inquires.form.label.creationMoment = Momento  de creación
+authenticated.inquires.form.label.deadline = Fecha límite
 authenticated.inquires.form.label.email	= Email
-authenticated.inquires.form.label.paragraphs	= Description
-authenticated.inquires.form.label.minMoney	=Minimun money interval
-authenticated.inquires.form.label.maxMoney	=Maximun money interval
-authenticated.inquires.form.button.return = Return
+authenticated.inquires.form.label.paragraphs	= Descripción
+authenticated.inquires.form.label.minMoney	=Dinero mínimo en el intervalo
+authenticated.inquires.form.label.maxMoney	=Dinero mínimo en el intervalo
+authenticated.inquires.form.button.return = Volver
 
 authenticated.inquire.form.button.update = Actualizar
 authenticated.inquire.form.button.delete = Borrar
