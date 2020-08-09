@@ -19,3 +19,7 @@ anonymous.notices.form.label.body	= Text
 anonymous.notices.form.label.picture	= Picture
 
 anonymous.notices.form.button.return = Return
+
+
+anonymous.notice.form.button.create = Create
+anonymous.notices.form.label.accept = Are you sure you want to create this notice?

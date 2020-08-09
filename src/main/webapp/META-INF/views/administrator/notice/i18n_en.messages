@@ -19,3 +19,6 @@ administrator.notices.form.label.body	= Text
 administrator.notices.form.label.picture	= Picture
 
 administrator.notices.form.button.return = Return
+
+administrator.notice.form.button.create = Create
+administrator.notices.form.label.accept = Are you sure you want to create this notice?

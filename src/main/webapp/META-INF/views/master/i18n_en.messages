@@ -71,6 +71,7 @@ master.menu.administrator.technologyRecord = Technology Record
 master.menu.administrator.technologyRecord.list = Records
 master.menu.administrator.technologyRecord.create = Create record
 
+
 master.menu.administrator.notice = Notices
 master.menu.administrator.notice.list = Notices list
 

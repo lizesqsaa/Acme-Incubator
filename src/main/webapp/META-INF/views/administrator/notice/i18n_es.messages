@@ -19,3 +19,6 @@ administrator.notices.form.label.body	= Texto
 administrator.notices.form.label.picture	= Imagen
 
 administrator.notices.form.button.return = Volver
+
+administrator.notice.form.button.create = Crear
+administrator.notices.form.label.accept = ¿Está seguro de que quiere crear este aviso?

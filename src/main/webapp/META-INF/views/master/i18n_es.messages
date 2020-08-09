@@ -67,9 +67,11 @@ master.menu.administrator = Administrador
 master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.shutdown = Parar el sistema
 
+
 master.menu.administrator.technologyRecord = Registro de tecnología
 master.menu.administrator.technologyRecord.list = Registros
 master.menu.administrator.technologyRecord.create = Crear registro
+
 
 master.menu.administrator.notice = Avisos
 master.menu.administrator.notice.list = Lista de avisos
