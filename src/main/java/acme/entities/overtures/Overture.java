@@ -21,7 +21,7 @@ import lombok.Setter;
 @Setter
 public class Overture extends DomainEntity {
 
-	private static final long	SerialVersionUID	= 1;
+	private static final long	serialVersionUID	= 1;
 
 	@NotBlank
 	private String				title;

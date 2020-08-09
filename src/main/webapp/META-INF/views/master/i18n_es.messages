@@ -49,6 +49,9 @@ master.menu.anonymous.notice = Avisos
 master.menu.authenticated.overture = Propuestas
 master.menu.authenticated.overture.list = Lista de propuestas
 
+master.menu.authenticated.technologyRecord = Registro de tecnología
+master.menu.authenticated.technologyRecord.list = Registros
+
 master.menu.authenticated.inquire = Preguntas
 master.menu.authenticated.inquire.list = Lista de preguntas
 
@@ -64,9 +67,11 @@ master.menu.administrator = Administrador
 master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.shutdown = Parar el sistema
 
-master.menu.administrator.overture = Propuestas
-master.menu.administrator.overture.list = Lista de propuestas
-master.menu.administrator.overture.create = Crear propuesta
+
+master.menu.administrator.technologyRecord = Registro de tecnología
+master.menu.administrator.technologyRecord.list = Registros
+master.menu.administrator.technologyRecord.create = Crear registro
+
 
 master.menu.administrator.notice = Avisos
 master.menu.administrator.notice.list = Lista de avisos

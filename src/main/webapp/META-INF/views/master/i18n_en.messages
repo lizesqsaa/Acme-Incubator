@@ -49,6 +49,9 @@ master.menu.anonymous.notice = Notices
 master.menu.authenticated.overture = Overtures
 master.menu.authenticated.overture.list = Overtures List
 
+master.menu.authenticated.technologyRecord = Technology Record
+master.menu.authenticated.technologyRecord.list = Records
+
 master.menu.authenticated.inquire = Inquiries
 master.menu.authenticated.inquire.list = Inquires list
 
@@ -64,9 +67,10 @@ master.menu.administrator = Administrator
 master.menu.administrator.user-accounts = User accounts
 master.menu.administrator.shutdown = Shut down
 
-master.menu.administrator.overture = Overtures
-master.menu.administrator.overture.list = Overtures List
-master.menu.administrator.overture.create = Create overture
+master.menu.administrator.technologyRecord = Technology Record
+master.menu.administrator.technologyRecord.list = Records
+master.menu.administrator.technologyRecord.create = Create record
+
 
 master.menu.administrator.notice = Notices
 master.menu.administrator.notice.list = Notices list
