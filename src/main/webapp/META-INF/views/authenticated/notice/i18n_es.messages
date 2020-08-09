@@ -22,4 +22,4 @@ authenticated.notice.form.label.picture	= Imagen
 authenticated.notice.form.button.return = Volver
 
 authenticated.notice.form.button.create = Crear
-authenticated.notices.form.label.accept = ¿Está seguro de que quiere crear este aviso?
+authenticated.notice.form.label.accept = ¿Está seguro de que quiere crear este aviso?
