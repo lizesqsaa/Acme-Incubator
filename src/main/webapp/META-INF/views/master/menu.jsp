@@ -19,89 +19,69 @@
 <acme:menu-bar code="master.menu.home">
 	<acme:menu-left>
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
-
-			<acme:menu-suboption code="master.menu.anonymous.favourite-link.alebarmor" action="https://twitter.com/home"/>
-			<acme:menu-suboption code="master.menu.anonymous.favourite-link.lizseth" action="http://www.youtube.com/"/>
-			<acme:menu-suboption code="master.menu.anonymous.favourite-link.jaime" action="http://www.google.com/"/>
-		
-
-
-		</acme:menu-option>
-		
-		<acme:menu-option code="master.menu.anonymous.technologyRecord" access="isAnonymous()">
+			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.technologyRecord.list" action="/anonymous/technology-record/list"/>
-		</acme:menu-option>
-		
-		<acme:menu-option code="master.menu.anonymous.tool" access="isAnonymous()">
+			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.tool.list" action="/anonymous/tool/list"/>
-		</acme:menu-option>
-		
-		<acme:menu-option code="master.menu.anonymous.notice" access="isAnonymous()">
+			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.notice.list" action="/anonymous/notice/list"/>
 		</acme:menu-option>
 		
 		
-		<acme:menu-option code="master.menu.authenticated.inquire" access="isAuthenticated()">
+		
+		<!--Authenticated-->
+		
+		
+		<acme:menu-option code="master.menu.authenticated" access="isAuthenticated()">
 		<acme:menu-suboption code="master.menu.authenticated.inquire.list" action="/authenticated/inquire/list"/>
-		</acme:menu-option>
-		
-		
-		<acme:menu-option code="master.menu.authenticated.notice" access="isAuthenticated()">
+		<acme:menu-separator/>
 		<acme:menu-suboption code="master.menu.authenticated.notice.list" action="/authenticated/notice/list"/>
+		<acme:menu-separator/>
+		<acme:menu-suboption code="master.menu.authenticated.technologyRecord.list" action="/authenticated/technology-record/list"/>
+		<acme:menu-separator/>
+		<acme:menu-suboption code="master.menu.authenticated.overture.list" action="/authenticated/overture/list"/>
+		<acme:menu-separator/>
+		<acme:menu-suboption code="master.menu.authenticated.challenge.list" action="/authenticated/challenge/list"/>
 		</acme:menu-option>
 		
 		
-		<acme:menu-option code="master.menu.administrator.notice" access="hasRole('Administrator')">
-		<acme:menu-suboption code="master.menu.administrator.notice.list" action="/administrator/notice/list"/>
-		</acme:menu-option>
-		
-		<acme:menu-option code="master.menu.administrator.tool" access="hasRole('Administrator')">
-		<acme:menu-suboption code="master.menu.administrator.tool.list" action="/administrator/tool/list"/>
-		<acme:menu-suboption code="master.menu.administrator.tool.create" action="/administrator/tool/create"/>
-		</acme:menu-option>
+		<!-- Administrator  -->
 		
 		
-		
-		
-		
-		<acme:menu-option code="master.menu.authenticated.technologyRecord" access="isAuthenticated()">
-			<acme:menu-suboption code="master.menu.authenticated.technologyRecord.list" action="/authenticated/technology-record/list"/>
-		</acme:menu-option>
-		
-		<acme:menu-option code="master.menu.anonymous.tool" access="isAuthenticated()">
-			<acme:menu-suboption code="master.menu.anonymous.tool.list" action="/anonymous/tool/list"/>
-		</acme:menu-option>
-
-		<acme:menu-option code="master.menu.authenticated.overture" access="isAuthenticated()">
-			<acme:menu-suboption code="master.menu.authenticated.overture.list" action="/authenticated/overture/list"/>
-		</acme:menu-option>
-		
-		<acme:menu-option code="master.menu.administrator.overture" access="hasRole('Administrator')">
-			<acme:menu-suboption code="master.menu.administrator.overture.list" action="/administrator/overture/list"/>
-			<acme:menu-suboption code="master.menu.administrator.overture.create" action="/administrator/overture/create"/>
-		</acme:menu-option>
-		
-		<acme:menu-option code="master.menu.authenticated.inquire" access="isAuthenticated()">
-			<acme:menu-suboption code="master.menu.authenticated.inquire.list" action="/authenticated/inquire/list"/>
-		</acme:menu-option>
-		
-		<acme:menu-option code="master.menu.authenticated.challenge" access="isAuthenticated()">
-			<acme:menu-suboption code="master.menu.authenticated.challenge.list" action="/authenticated/challenge/list"/>
-		</acme:menu-option>
-		
-
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
-			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>
-			<acme:menu-separator/>
-			<acme:menu-suboption code="master.menu.administrator.shutdown" action="/master/shutdown"/>
+		<acme:menu-suboption code="master.menu.administrator.notice.list" action="/administrator/notice/list"/>
+		<acme:menu-separator/>
+		<acme:menu-suboption code="master.menu.administrator.notice.create" action="/administrator/notice/create"/>
+		<acme:menu-separator/>
+		<acme:menu-suboption code="master.menu.administrator.tool.list" action="/administrator/tool/list"/>
+		<acme:menu-separator/>
+		<acme:menu-suboption code="master.menu.administrator.tool.create" action="/administrator/tool/create"/>
+		<acme:menu-separator/>
+		<acme:menu-suboption code="master.menu.administrator.overture.list" action="/administrator/overture/list"/>
+		<acme:menu-separator/>
+		<acme:menu-suboption code="master.menu.administrator.overture.create" action="/administrator/overture/create"/>
+		<acme:menu-separator/>
+		<acme:menu-suboption code="master.menu.administrator.challenge.list" action="/administrator/challenge/list"/>
+		<acme:menu-separator/>
+		<acme:menu-suboption code="master.menu.administrator.challenge.create" action="/administrator/challenge/create"/>
+		<acme:menu-separator/>
+		<acme:menu-suboption code="master.menu.administrator.inquire.list" action="/administrator/inquire/list"/>
+		<acme:menu-separator/>
+		<acme:menu-suboption code="master.menu.administrator.inquire.create" action="/administrator/inquire/create"/>
+		<acme:menu-separator/>
+		<acme:menu-suboption code="master.menu.administrator.technologyRecord.list" action="/administrator/technology-record/list"/>
+		<acme:menu-separator/>
+		<acme:menu-suboption code="master.menu.administrator.technologyRecord.create" action="/administrator/technology-record/create"/>
+		<acme:menu-separator/>
+		<acme:menu-suboption code="master.menu.administrator.shutdown" action="/master/shutdown"/>
+		<acme:menu-separator/>
+		<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>
 		</acme:menu-option>
 		
-
-		<acme:menu-option code="master.menu.authenticated.challenge" access="hasRole('Administrator')">
-			<acme:menu-suboption code="master.menu.administrator.challenge.list" action="/administrator/challenge/list"/>
-			<acme:menu-suboption code="master.menu.administrator.challenge.create" action="/administrator/challenge/create"/>
-
-		</acme:menu-option>
+		
+		
+		
+		
 
 		<acme:menu-option code="master.menu.provider" access="hasRole('Provider')">
 			<acme:menu-suboption code="master.menu.provider.favourite-link" action="http://www.example.com/"/>

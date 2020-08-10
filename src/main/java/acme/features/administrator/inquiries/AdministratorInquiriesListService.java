@@ -1,5 +1,5 @@
 
-package acme.features.authenticated.inquiries;
+package acme.features.administrator.inquiries;
 
 import java.util.Collection;
 
@@ -9,14 +9,14 @@ import org.springframework.stereotype.Service;
 import acme.entities.inquiries.Inquire;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
-import acme.framework.entities.Authenticated;
+import acme.framework.entities.Administrator;
 import acme.framework.services.AbstractListService;
 
 @Service
-public class AuthenticatedInquiriesListService implements AbstractListService<Authenticated, Inquire> {
+public class AdministratorInquiriesListService implements AbstractListService<Administrator, Inquire> {
 
 	@Autowired
-	AuthenticatedInquiriesRepository repository;
+	AdministratorInquiriesRepository repository;
 
 
 	@Override
@@ -41,7 +41,7 @@ public class AuthenticatedInquiriesListService implements AbstractListService<Au
 
 		Collection<Inquire> result;
 
-		result = this.repository.findManyActive();
+		result = this.repository.findMany();
 
 		return result;
 	}

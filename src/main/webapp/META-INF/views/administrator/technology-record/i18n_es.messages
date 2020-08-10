@@ -18,7 +18,7 @@ administrator.techonologyRecord.form.label.inventor = Inventor:
 administrator.techonologyRecord.form.label.description = Descripción:
 administrator.techonologyRecord.form.label.web = Web:
 administrator.techonologyRecord.form.label.contactEmail = Email de contacto:
-administrator.techonologyRecord.form.label.source = Fuente abierta:
+administrator.techonologyRecord.form.label.source = Fuente abierta
 administrator.techonologyRecord.form.label.stars = Estrellas:
 
 administrator.techonologyRecord.form.button.create = Crear

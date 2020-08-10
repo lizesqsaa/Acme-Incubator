@@ -22,11 +22,6 @@
 	<acme:form-url code="anonymous.notices.form.label.relatedNotices" path="relatedNotices"/>
 	<acme:form-textarea code="anonymous.notices.form.label.body" path="body"/>
 	
-	<jstl:if test="${command=='create' }">
-	<acme:form-checkbox  code="anonymous.notices.form.label.accept" path="accept"/>
-	</jstl:if>
 	
-	<acme:form-submit test="${command == 'create'}" code="anonymous.notice.form.button.create" 
-						action="/anonymous/notice/create"/>
 	<acme:form-return code="anonymous.notices.form.button.return"/>
 </acme:form>

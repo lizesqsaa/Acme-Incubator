@@ -23,6 +23,3 @@ authenticated.inquires.form.label.minMoney	=Dinero mínimo en el intervalo
 authenticated.inquires.form.label.maxMoney	=Dinero mínimo en el intervalo
 authenticated.inquires.form.button.return = Volver
 
-authenticated.inquire.form.button.update = Actualizar
-authenticated.inquire.form.button.delete = Borrar
-authenticated.inquire.form.button.create = Crear

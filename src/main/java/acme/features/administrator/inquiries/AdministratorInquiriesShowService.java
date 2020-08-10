@@ -1,7 +1,5 @@
 
-package acme.features.authenticated.inquiries;
-
-import java.util.Collection;
+package acme.features.administrator.inquiries;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -9,14 +7,14 @@ import org.springframework.stereotype.Service;
 import acme.entities.inquiries.Inquire;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
-import acme.framework.entities.Authenticated;
-import acme.framework.services.AbstractListService;
+import acme.framework.entities.Administrator;
+import acme.framework.services.AbstractShowService;
 
 @Service
-public class AuthenticatedInquiriesListService implements AbstractListService<Authenticated, Inquire> {
+public class AdministratorInquiriesShowService implements AbstractShowService<Administrator, Inquire> {
 
 	@Autowired
-	AuthenticatedInquiriesRepository repository;
+	private AdministratorInquiriesRepository repository;
 
 
 	@Override
@@ -28,20 +26,24 @@ public class AuthenticatedInquiriesListService implements AbstractListService<Au
 
 	@Override
 	public void unbind(final Request<Inquire> request, final Inquire entity, final Model model) {
+
 		assert request != null;
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "title", "deadline", "minMoney", "maxMoney");
+		request.unbind(entity, model, "title", "creationMoment", "deadline", "paragraphs", "minMoney", "maxMoney", "email");
+
 	}
 
 	@Override
-	public Collection<Inquire> findMany(final Request<Inquire> request) {
+	public Inquire findOne(final Request<Inquire> request) {
 		assert request != null;
 
-		Collection<Inquire> result;
+		Inquire result;
+		int id;
 
-		result = this.repository.findManyActive();
+		id = request.getModel().getInteger("id");
+		result = this.repository.findOneById(id);
 
 		return result;
 	}

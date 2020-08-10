@@ -22,5 +22,3 @@ authenticated.notice.form.label.picture	= Picture
 
 authenticated.notice.form.button.return = Return
 
-authenticated.notice.form.button.create = Create
-authenticated.notice.form.label.accept = Are you sure you want to create this notice?
