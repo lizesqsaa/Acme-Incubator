@@ -88,10 +88,14 @@ master.menu.administrator.challenge.create = Crear reto
 master.menu.administrator.overture.list = Lista de propuestas
 master.menu.administrator.overture.create = Crear propuesta
 
+master.menu.administrator.banner = Pancartas
+master.menu.administrator.banner.create = Crear pancartas
+
+master.menu.administrator.customisation = Customización
+
 # master.menu.authenticated ###################################################
+
 master.menu.authenticated = Autenticado
-
-
 
 # master.menu.provider ########################################################
 

@@ -336,5 +336,32 @@
 		<property name="maxMoney" value="44000.00 €"/>
 		<property name="email" value="example4@email.com"/>
 	</bean>
+	
+	<!-- Banners  -->
+
+	<bean id="banner01" class="acme.entities.banners.Banner">
+		<property name="picture" value="https://ast.wikipedia.org/wiki/Sol#/media/Ficheru:The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA's_Solar_Dynamics_Observatory_-_20100819.jpg"/>
+		<property name="slogan" value="PRAISE THE SUN!"/>
+		<property name="url" value="https://es.wikipedia.org/wiki/Sol"/>
+		<property name="holder" value="Alejandro Perez Ruiz"/>
+		<property name="number" value="5118686347182952"/>
+		<property name="brand" value="Mastercard"/>
+		<property name="expirationDate" value="01/2024"/>
+		<property name="cvv" value="373"/>
+	</bean>
+
+	<bean id="banner02" class="acme.entities.banners.Banner">
+		<property name="picture" value="https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_YouTube_%282015-2017%29.svg"/>
+		<property name="slogan" value="Enjoy watching ;)"/>
+		<property name="url" value="https://www.youtube.com/"/>
+	</bean>
+	
+	<!-- Customisation -->
+
+	<bean id="Customisation" class="acme.entities.customisations.Customisation">
+		<property name="spam" value="sex,hard core,viagra,cialis,nigeria,you've won,million dollar,sexo,duro,has ganado,millón de dólares"/>
+		<property name="threshold" value="2.50"/>
+		<property name="activitySectors" value="Technology,Science,Arts,Business,Health"/>
+	</bean>
 
 </beans>

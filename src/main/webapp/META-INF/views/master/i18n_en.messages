@@ -67,11 +67,8 @@ master.menu.administrator = Administrator
 master.menu.administrator.user-accounts = User accounts
 master.menu.administrator.shutdown = Shut down
 
-
 master.menu.administrator.technologyRecord.list = Technology records list
 master.menu.administrator.technologyRecord.create = Create technology records
-
-
 
 master.menu.administrator.notice.list = Notices list
 master.menu.administrator.notice.create = Create notices
@@ -88,6 +85,10 @@ master.menu.administrator.challenge.create = Create challenges
 master.menu.administrator.overture.list = Overtures list
 master.menu.administrator.overture.create = Create overture
 
+master.menu.administrator.banner = Banners
+master.menu.administrator.banner.create = Create banners
+
+master.menu.administrator.customisation = Customisation
 
 # master.menu.authenticated ###################################################
 
