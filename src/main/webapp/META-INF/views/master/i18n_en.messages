@@ -103,8 +103,6 @@ master.menu.administrator.overture.create = Create overture
 master.menu.administrator.banner = Banners
 master.menu.administrator.banner.create = Create banners
 
-master.menu.administrator.customisation = Customisation
-
 # master.menu.authenticated ###################################################
 
 master.menu.authenticated = Authenticated

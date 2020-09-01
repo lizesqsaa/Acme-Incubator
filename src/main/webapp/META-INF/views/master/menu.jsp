@@ -96,8 +96,6 @@
 		<acme:menu-separator/>
 		<acme:menu-suboption code="master.menu.administrator.banner" action="/administrator/banner/list"/>
 		<acme:menu-suboption code="master.menu.administrator.banner.create" action="/administrator/banner/create"/>
-		<acme:menu-separator/>
-		<acme:menu-suboption code="master.menu.administrator.customisation" action="/administrator/customisation/show"/>
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.provider" access="hasRole('Provider')">
