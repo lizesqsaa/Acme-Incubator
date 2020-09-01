@@ -34,6 +34,15 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `barba_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `author` varchar(255),
+        `moment` datetime(6),
+        `text` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `challenge` (
        `id` integer not null,
         `version` integer not null,
@@ -70,6 +79,15 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `esquen_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `author` varchar(255),
+        `moment` datetime(6),
+        `text` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `inquire` (
        `id` integer not null,
         `version` integer not null,
@@ -82,6 +100,15 @@
         `min_money_currency` varchar(255),
         `paragraphs` varchar(255),
         `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `lucas_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `author` varchar(255),
+        `moment` datetime(6),
+        `text` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 

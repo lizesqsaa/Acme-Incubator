@@ -27,13 +27,19 @@
 
     drop table if exists `banner`;
 
+    drop table if exists `barba_bulletin`;
+
     drop table if exists `challenge`;
 
     drop table if exists `consumer`;
 
     drop table if exists `customisation`;
 
+    drop table if exists `esquen_bulletin`;
+
     drop table if exists `inquire`;
+
+    drop table if exists `lucas_bulletin`;
 
     drop table if exists `notice`;
 
